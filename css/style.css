@@ -1,0 +1,220 @@
+:root {
+  --background: #ffffff;
+  --hero-title: #ffffff;
+  --text-one--title-two--title-three--title-name--title-small: #212121;
+  --text--small-text: #757575;
+}
+
+body {
+  background: var(--background);
+}
+.page-header {
+  background: var(--background);
+}
+ul {
+  list-style: none;
+}
+.logo-web {
+  color: #2196f3;
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-two {
+  color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.site-nav {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.site-nav:hover,
+.site-nav:focus,
+.site-nav:active {
+  color: #2196f3;
+}
+.open-link {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.open-link:hover,
+.open-link:focus,
+.open-link:active {
+  color: #2196f3;
+}
+.open {
+  color: #2196f3;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.open:hover,
+.open:focus,
+.open:active {
+  color: #2196f3;
+}
+.hero {
+  background: #2f303a;
+}
+.hero-blok {
+  color: #eeeeee;
+}
+.botton {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  background: #f5f4fa;
+}
+.botton.primary {
+  background: #2196f3;
+  color: #ffffff;
+}
+.hero-title {
+  color: var(--hero-title);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+.botton-studio {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  background: #2196f3;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.page-link {
+  color: #757575;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+.page-link:hover,
+.page-link:focus,
+.page-link:active {
+  color: #2196f3;
+}
+.text-one {
+  color: var(--text-one--title-two--title-three--title-name--title-small);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.text {
+  color: var(--text--small-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.title-two {
+  color: var(--text-one--title-two--title-three--title-name--title-small);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+.title-three {
+  color: var(--text-one--title-two--title-three--title-name--title-small);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+.title-name {
+  color: var(--text-one--title-two--title-three--title-name--title-small);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.title-small {
+  color: var(--text-one--title-two--title-three--title-name--title-small);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+.small-text {
+  color: var(--text--small-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+.footer {
+  background: #2f303a;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer-link:hover,
+.footer-link:focus,
+.footer-link:active {
+  color: #2196f3;
+}
+.footer-address {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
