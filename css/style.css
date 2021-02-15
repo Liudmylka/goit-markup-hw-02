@@ -3,6 +3,8 @@
   --hero-title: #ffffff;
   --text-one--title-two--title-three--title-name--title-small: #212121;
   --text--small-text: #757575;
+  --color-link: #2196f3;
+  --main-color: #212121;
 }
 
 body {
@@ -15,68 +17,65 @@ ul {
   list-style: none;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--color-link);
   text-decoration: none;
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 119%;
 }
 .logo {
   color: #000000;
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 119%;
 }
 .logo-two {
-  color: #ffffff;
+  color: var(--hero-titl);
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 119%;
 }
 .site-nav {
-  color: #212121;
+  color: var(--main-color);
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 114%;
+  text-decoration: none;
 }
 .site-nav:hover,
 .site-nav:focus,
 .site-nav:active {
-  color: #2196f3;
+  color: var(--color-link);
 }
 .open-link {
-  color: #212121;
+  color: var(--main-color);
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 114%;
+  text-decoration: none;
 }
 .open-link:hover,
 .open-link:focus,
 .open-link:active {
-  color: #2196f3;
+  color: var(--color-link);
 }
 .open {
-  color: #2196f3;
+  color: var(--color-link);
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 114%;
+  text-decoration: none;
 }
 .open:hover,
 .open:focus,
 .open:active {
-  color: #2196f3;
+  color: var(--color-link);
 }
 .hero {
   background: #2f303a;
@@ -85,34 +84,34 @@ ul {
   color: #eeeeee;
 }
 .botton {
-  color: #212121;
-  font-family: Roboto;
-  font-style: normal;
+  color: var(--main-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 162%;
   background: #f5f4fa;
 }
-.botton.primary {
-  background: #2196f3;
-  color: #ffffff;
+.botton:hover,
+.botton:focus,
+.botton:active {
+  background: var(--color-link);
 }
+
 .hero-title {
   color: var(--hero-title);
   font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 136%;
+  text-transform: uppercase;
 }
 .botton-studio {
-  color: #ffffff;
+  color: var(--hero-titl);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  background: #2196f3;
+  line-height: 187%;
+  background: var(--color-link);
 }
 .visually-hidden {
   position: absolute;
@@ -127,72 +126,73 @@ ul {
   overflow: hidden;
 }
 .page-link {
-  color: #757575;
+  color: var(--text--small-text);
   text-decoration: none;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
+  text-decoration: none;
 }
 .page-link:hover,
 .page-link:focus,
 .page-link:active {
-  color: #2196f3;
+  color: var(--color-link);
 }
 .text-one {
   color: var(--text-one--title-two--title-three--title-name--title-small);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 114%;
   text-transform: uppercase;
 }
 .text {
   color: var(--text--small-text);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 171%;
 }
 .title-two {
   color: var(--text-one--title-two--title-three--title-name--title-small);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 116%;
 }
+.team {
+  background: #f5f4fa;
+}
+
 .title-three {
   color: var(--text-one--title-two--title-three--title-name--title-small);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 116%;
 }
 .title-name {
   color: var(--text-one--title-two--title-three--title-name--title-small);
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 118%;
 }
 .title-small {
   color: var(--text-one--title-two--title-three--title-name--title-small);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
+  line-height: 200%;
+  text-decoration: none;
 }
 .small-text {
   color: var(--text--small-text);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
+  line-height: 187%;
+  text-decoration: none;
 }
 .footer {
   background: #2f303a;
@@ -200,21 +200,20 @@ ul {
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 171%;
+  text-decoration: none;
 }
 .footer-link:hover,
 .footer-link:focus,
 .footer-link:active {
-  color: #2196f3;
+  color: var(--color-link);
 }
 .footer-address {
-  color: #ffffff;
+  color: var(--hero-titl);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 171%;
 }
