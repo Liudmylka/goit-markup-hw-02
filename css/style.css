@@ -16,6 +16,12 @@ body {
 ul {
   list-style: none;
 }
+.body {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
+}
 .logo-web {
   color: var(--color-link);
   text-decoration: none;
@@ -32,7 +38,7 @@ ul {
   line-height: 119%;
 }
 .logo-two {
-  color: var(--hero-titl);
+  color: #ffffff;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -40,10 +46,6 @@ ul {
 }
 .site-nav {
   color: var(--main-color);
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 114%;
   text-decoration: none;
 }
 .site-nav:hover,
@@ -53,10 +55,6 @@ ul {
 }
 .open-link {
   color: var(--main-color);
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 114%;
   text-decoration: none;
 }
 .open-link:hover,
@@ -66,10 +64,6 @@ ul {
 }
 .open {
   color: var(--color-link);
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 114%;
   text-decoration: none;
 }
 .open:hover,
@@ -95,11 +89,11 @@ ul {
 .botton:focus,
 .botton:active {
   background: var(--color-link);
+  color: var(--hero-title);
 }
 
 .hero-title {
   color: var(--hero-title);
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
@@ -107,7 +101,6 @@ ul {
 }
 .botton-studio {
   color: var(--hero-titl);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 187%;
@@ -128,10 +121,6 @@ ul {
 .page-link {
   color: var(--text--small-text);
   text-decoration: none;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  text-decoration: none;
 }
 .page-link:hover,
 .page-link:focus,
@@ -140,7 +129,6 @@ ul {
 }
 .text-one {
   color: var(--text-one--title-two--title-three--title-name--title-small);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
   line-height: 114%;
@@ -148,14 +136,12 @@ ul {
 }
 .text {
   color: var(--text--small-text);
-  font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
 }
 .title-two {
   color: var(--text-one--title-two--title-three--title-name--title-small);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   line-height: 116%;
@@ -166,21 +152,18 @@ ul {
 
 .title-three {
   color: var(--text-one--title-two--title-three--title-name--title-small);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   line-height: 116%;
 }
 .title-name {
   color: var(--text-one--title-two--title-three--title-name--title-small);
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 118%;
 }
 .title-small {
   color: var(--text-one--title-two--title-three--title-name--title-small);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
@@ -188,10 +171,12 @@ ul {
 }
 .small-text {
   color: var(--text--small-text);
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 187%;
+  text-decoration: none;
+}
+.photo {
   text-decoration: none;
 }
 .footer {
@@ -199,11 +184,11 @@ ul {
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
   text-decoration: none;
+  font-style: normal;
 }
 .footer-link:hover,
 .footer-link:focus,
@@ -211,9 +196,9 @@ ul {
   color: var(--color-link);
 }
 .footer-address {
-  color: var(--hero-titl);
-  font-family: Roboto;
+  color: #ffffff;
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
+  font-style: normal;
 }
