@@ -9,18 +9,21 @@
 
 body {
   background: var(--background);
-}
-.page-header {
-  background: var(--background);
-}
-ul {
-  list-style: none;
-}
-.body {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 114%;
+}
+.page-header {
+  background: var(--background);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
+}
+ul {
+  list-style: none;
 }
 .logo-web {
   color: var(--color-link);
@@ -47,6 +50,11 @@ ul {
 .site-nav {
   color: var(--main-color);
   text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
 }
 .site-nav:hover,
 .site-nav:focus,
@@ -56,6 +64,11 @@ ul {
 .open-link {
   color: var(--main-color);
   text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
 }
 .open-link:hover,
 .open-link:focus,
