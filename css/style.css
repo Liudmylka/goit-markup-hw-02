@@ -1,23 +1,25 @@
 :root {
   --background: #ffffff;
-  --hero-title: #ffffff;
+  --title: #ffffff;
   --text-one--title-two--title-three--title-name--title-small: #212121;
   --text--small-text: #757575;
   --color-link: #2196f3;
   --main-color: #212121;
+  --black: #000000;
+  --background-hero: #2f303a;
+  --hero-blok: #eeeeee;
+  --button: #f5f4fa;
 }
 
 body {
   background: var(--background);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 114%;
 }
 .page-header {
   background: var(--background);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 114%;
@@ -28,33 +30,35 @@ ul {
 .logo-web {
   color: var(--color-link);
   text-decoration: none;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 119%;
+  letter-spacing: 0.03em;
 }
 .logo {
-  color: #000000;
-  font-family: Raleway;
+  color: var(--black);
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 119%;
+  letter-spacing: 0.03em;
 }
 .logo-two {
-  color: #ffffff;
-  font-family: Raleway;
+  color: var(--title);
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 119%;
+  letter-spacing: 0.03em;
 }
 .site-nav {
   color: var(--main-color);
   text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 114%;
+  letter-spacing: 0.02em;
 }
 .site-nav:hover,
 .site-nav:focus,
@@ -64,11 +68,10 @@ ul {
 .open-link {
   color: var(--main-color);
   text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 114%;
+  letter-spacing: 0.02em;
 }
 .open-link:hover,
 .open-link:focus,
@@ -78,6 +81,7 @@ ul {
 .open {
   color: var(--color-link);
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 .open:hover,
 .open:focus,
@@ -85,38 +89,42 @@ ul {
   color: var(--color-link);
 }
 .hero {
-  background: #2f303a;
+  background: var(--background-hero);
 }
 .hero-blok {
-  color: #eeeeee;
+  color: var(--hero-blok);
 }
-.botton {
+.button {
   color: var(--main-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
-  background: #f5f4fa;
+  letter-spacing: 0.03em;
+  background: var(--button);
 }
-.botton:hover,
-.botton:focus,
-.botton:active {
+.button:hover,
+.button:focus,
+.button:active {
   background: var(--color-link);
-  color: var(--hero-title);
+  color: var(--title);
 }
 
 .hero-title {
-  color: var(--hero-title);
+  color: var(--title);
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
   text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 .botton-studio {
-  color: var(--hero-titl);
+  color: var(--title);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 187%;
+  letter-spacing: 0.06em;
   background: var(--color-link);
 }
 .visually-hidden {
@@ -134,6 +142,7 @@ ul {
 .page-link {
   color: var(--text--small-text);
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 .page-link:hover,
 .page-link:focus,
@@ -146,21 +155,24 @@ ul {
   font-size: 14px;
   line-height: 114%;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 .text {
   color: var(--text--small-text);
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
+  letter-spacing: 0.03em;
 }
 .title-two {
   color: var(--text-one--title-two--title-three--title-name--title-small);
   font-weight: 700;
   font-size: 36px;
   line-height: 116%;
+  letter-spacing: 0.03em;
 }
 .team {
-  background: #f5f4fa;
+  background: var(--button);
 }
 
 .title-three {
@@ -168,18 +180,21 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 116%;
+  letter-spacing: 0.03em;
 }
 .title-name {
   color: var(--text-one--title-two--title-three--title-name--title-small);
   font-weight: 500;
   font-size: 16px;
   line-height: 118%;
+  letter-spacing: 0.03em;
 }
 .title-small {
   color: var(--text-one--title-two--title-three--title-name--title-small);
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
+  letter-spacing: 0.06em;
   text-decoration: none;
 }
 .small-text {
@@ -188,12 +203,13 @@ ul {
   font-size: 16px;
   line-height: 187%;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .photo {
   text-decoration: none;
 }
 .footer {
-  background: #2f303a;
+  background: var(--background-hero);
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
@@ -201,7 +217,7 @@ ul {
   font-size: 14px;
   line-height: 171%;
   text-decoration: none;
-  font-style: normal;
+  letter-spacing: 0.03em;
 }
 .footer-link:hover,
 .footer-link:focus,
@@ -209,9 +225,9 @@ ul {
   color: var(--color-link);
 }
 .footer-address {
-  color: #ffffff;
+  color: var(--title);
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
-  font-style: normal;
+  letter-spacing: 0.03em;
 }
